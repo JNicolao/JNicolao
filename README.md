@@ -6,7 +6,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jnicolao&label=Profile%20views&color=0e75b6&style=flat" alt="jnicolao" /> </p>
 
 
-- 🔭 I’m currently working on **Prasins Energy Website**
+- 🔭 I’m currently **busy completing my last semester.**
 
 - 🌱 I’m currently learning **React, DSA.**
 
@@ -14,7 +14,8 @@
 
 - 💬 Ask me about **Javascript of course.**
 
-- 📫 How to reach me **bororio96@gmail.com**
+- 📫 How to reach me **bororio96@gmail.com** 
+- Please reach out on any Internship leads | Collaborations | Freelancing jobs
 
 - ⚡ Fun fact **I prefer a 1% improvement everyday over a one time 100%**
 
