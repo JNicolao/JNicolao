@@ -1,17 +1,15 @@
 [comment]: #[![MasterHead](https://camo.githubusercontent.com/1f034ebfc52e5fdcc097e7b3c6c9100e1fd606f5a99af8ea35f1d3a936bbfdfa/687474703a2f2f7777772e7072616d756b686469676974616c2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031382f30372f4e65772d504e432d416e696d617465642d42616e6e6572732e676966)]
-<h1 align="center">Hi 👋, I'm Justine</h1>
-<h3 align="center">A passionate fullstack developer from Kenya</h3>
+<h1 align="center">Hello, I'm Justine 😄</h1>
+
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/cd/59/d6/cd59d626dc86397fe45080e6e9c7027d.gif">
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jnicolao&label=Profile%20views&color=0e75b6&style=flat" alt="jnicolao" /> </p>
 
-
-- 🔭 Competent and adept at understanding 😄
+- 🔭 Competent and adept at understanding
 - 🌱 I map scientific problems into computational frameworks
 - 👯 Please reach out on any Internship leads | Collaborations | Freelancing jobs
-- 💬 Ask me about **Javascript of course.**
 - 📫 Reach me on email - **bororio96@gmail.com** 
-- ⚡ Fun fact **I prefer a 1% improvement everyday over a one time 100%**
 
 ### Languages
 
@@ -35,6 +33,5 @@
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> 
   <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> 
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jnicolao&show_icons=true&locale=en&layout=compact" alt="jnicolao" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jnicolao&" alt="jnicolao" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jnicolao&show_icons=true&locale=en&layout=compact" alt="jnicolao" /> 
+<img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=jnicolao&" alt="jnicolao" /></p>
