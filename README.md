@@ -6,17 +6,11 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jnicolao&label=Profile%20views&color=0e75b6&style=flat" alt="jnicolao" /> </p>
 
 
-- 🔭 I’m currently **busy completing my last semester.**
-
-- 🌱 I’m currently learning **React, DSA.**
-
-- 👯 I’m looking to collaborate on **any Web Application**
-
+- 🔭 Competent and adept at understanding 😄
+- 🌱 I map scientific problems into computational frameworks
+- 👯 Please reach out on any Internship leads | Collaborations | Freelancing jobs
 - 💬 Ask me about **Javascript of course.**
-
-- 📫 How to reach me **bororio96@gmail.com** 
-- Please reach out on any Internship leads | Collaborations | Freelancing jobs
-
+- 📫 Reach me on email - **bororio96@gmail.com** 
 - ⚡ Fun fact **I prefer a 1% improvement everyday over a one time 100%**
 
 <h3 align="left">Connect with me:</h3>
