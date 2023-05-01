@@ -6,9 +6,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jnicolao&label=Profile%20views&color=0e75b6&style=flat" alt="jnicolao" /> </p>
 
-- 🔭 Competent and adept at understanding
+- 🔭 Technology is the campfire around which we tell our stories.
 - 🌱 I map scientific problems into computational frameworks
-- 👯 Please reach out on any Internship | Collaborations | Freelancing jobs | Open-Source 
+- 👯 Open for Internship | Collaborations | Freelancing jobs | Open-Source 
 - 📫 Email - **bororio96@gmail.com** 
 
 ### Languages
