@@ -35,3 +35,7 @@
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jnicolao&show_icons=true&locale=en&layout=compact" alt="jnicolao" /> 
 <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=jnicolao&" alt="jnicolao" /></p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer"/>
+</p>
