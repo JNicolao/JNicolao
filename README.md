@@ -8,7 +8,7 @@
 
 - 🔭 Technology is the campfire around which we tell our stories.
 - 🌱 I map scientific problems into computational frameworks
-- 👯 Open for Internship | Collaborations | Freelancing jobs | Open-Source 
+- 👯 Open for Internship | Collaborations | Freelancing | Open-Source 
 - 📫 Email - **bororio96@gmail.com** 
 
 ### Languages
