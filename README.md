@@ -7,7 +7,7 @@
 - 🔭 Technology is the campfire around which we tell our stories.
 - 🌱 I map scientific problems into computational frameworks
 - 👯 Open for Internship | Collaborations | Freelancing | Open-Source 
-- 📫 Email - **justine@ewaka.tech** 
+- 📫 Email - **bororio96@gmail.com** 
 
 ### Languages
 
