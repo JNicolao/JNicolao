@@ -14,7 +14,7 @@ I'm a **Software Engineer** specializing in building scalable systems, crafting 
 - **Frameworks**: &nbsp;&nbsp;&nbsp; React.js • Next.js • Django • Node.js • Tailwind
 - **DevOps**: &nbsp;&nbsp;&nbsp;&nbsp; Docker 🐳 • Kubernetes • AWS ☁️ • NGINX
 - **Databases**: &nbsp;&nbsp;&nbsp; MySQL • MongoDB • Redis  
-- **Tools**: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Git • VS Code • Figma
+- **Tools**: &nbsp;&nbsp;&nbsp;&nbsp; Git • VS Code • Replit • Figma • Cursor
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer"/>
