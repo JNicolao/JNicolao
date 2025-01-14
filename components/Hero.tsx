@@ -64,9 +64,10 @@ export default function Hero() {
                 className="rounded-2xl shadow-2xl"
                 src="/images/photo.jpg"
                 alt="Image"
-                width={1200}
-                height={1200}
-                priority
+                width={600}
+                height={600}
+                loading="eager"
+                priority={true}
               />
             </div>
           </header>
