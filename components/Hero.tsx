@@ -9,21 +9,17 @@ export default function Hero() {
     <>
       <div className="overflow-hidden bg-[url(../public/images/bg.jpg)] bg-top bg-scroll bg-cover mx-auto px-4">
         <div className="bg-violet-50 mx-4 my-6 px-8 pt-4 rounded-2xl shadow-xl">
-          <div className="my-8 lg:mx-12 flex">
-            <a href="#">
-              <Image
-                src="/images/logo.svg"
-                alt="logo"
-                width={49}
-                height={35}
-              />
-            </a>
-          </div>
+          <Image
+            src="/images/logo.svg"
+            alt="logo"
+            width={49}
+            height={35}
+            className="my-8 lg:mx-12 flex"
+          />
           <header className="grid grid-cols-1 gap-4 justify-center lg:grid-cols-3 lg:gap-8 lg:px-20">
             <div className="text-center lg:text-left lg:mb-8 lg:col-span-2">
               <div className="flex items-center justify-center lg:justify-start gap-2 mb-6">
                 <span className="w-12 h-0.5 bg-indigo-800"></span>
-
                 <p className="font-medium text-indigo-900 text-xl">
                   Fullstack Developer
                 </p>
@@ -31,9 +27,9 @@ export default function Hero() {
               <h1 className="font-bold text-gray-800 text-3xl md:text-5xl xl:text-6xl mb-4">
                 Justine Nicolao
               </h1>
-              <h3 className="text-gray-700 text-2xl xl:text-4xl mb-4">
+              <h2 className="text-gray-700 text-2xl xl:text-4xl mb-4">
                 Software Engineer
-              </h3>
+              </h2>
               <p className="font-normal text-gray-600 text-sm md:text-md lg:w-4/5 xl:text-lg mb-8">
                 With three years of hands-on experience, I am passionate about
                 crafting innovative solutions to complex technological
@@ -49,7 +45,7 @@ export default function Hero() {
                 >
                   About
                 </button>
-{/* 
+                {/* 
                 <a
                   href="/projects"
                   target="_blank"
@@ -58,7 +54,7 @@ export default function Hero() {
                   Projects
                 </a> */}
               </div>
-              <span className="font-normal text-gray-500 text-sm">
+              <span className="font-normal text-gray-600 text-sm">
                 I am currently not open for full-time work.
               </span>
             </div>
@@ -68,8 +64,9 @@ export default function Hero() {
                 className="rounded-2xl shadow-2xl"
                 src="/images/photo.jpg"
                 alt="Image"
-                width={600}
-                height={600}
+                width={1200}
+                height={1200}
+                priority
               />
             </div>
           </header>

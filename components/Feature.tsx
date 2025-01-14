@@ -19,10 +19,10 @@ interface SectionProps {
 }
 
 const Section: React.FC<SectionProps> = ({ title, description }) => (
-  <div className="bg-gray-50 px-10 py-10 rounded-md">
-    <h4 className="font-semibold text-gray-700 text-lg mb-5">{title}</h4>
+  <section className="bg-gray-50 px-10 py-10 rounded-md">
+    <h1 className="font-semibold text-gray-700 text-lg mb-5">{title}</h1>
     <p className="font-normal text-gray-500 text-md mb-4">{description}</p>
-  </div>
+  </section>
 );
 
 interface SectionWithIconProps {
@@ -32,13 +32,13 @@ interface SectionWithIconProps {
 }
 
 const SectionWithIcon: React.FC<SectionWithIconProps> = ({ icon, title, description }) => (
-  <div className="bg-gray-50 px-8 py-6 shadow rounded-lg text-center">
+  <section className="bg-gray-50 px-8 py-6 shadow rounded-lg text-center">
     <div className="w-12 py-3 flex justify-center mx-auto rounded-md mb-3">
       {icon}
     </div>
-    <h4 className="font-semibold text-gray-700 text-lg mb-3">{title}</h4>
+    <h1 className="font-semibold text-gray-700 text-lg mb-3">{title}</h1>
     <p className="font-normal text-gray-500 text-md">{description}</p>
-  </div>
+  </section>
 );
 
 const Feature = () => {
@@ -46,17 +46,17 @@ const Feature = () => {
     { bgColor: "bg-[#f1e05a]", textColor: "text-black", text: "JavaScript" },
     { bgColor: "bg-[#61dafb]", textColor: "text-black", text: "React" },
     { bgColor: "bg-[#000000]", textColor: "text-white", text: "Next.js" },
-    { bgColor: "bg-[#e34c26]", textColor: "text-white", text: "Python" },
+    { bgColor: "bg-[#e34c26]", textColor: "text-black", text: "Python" },
     { bgColor: "bg-[#764ABC]", textColor: "text-white", text: "TailwindCSS" },
     { bgColor: "bg-[#41b883]", textColor: "text-black", text: "Node.js" },
     { bgColor: "bg-[#24282f]", textColor: "text-white", text: "Git" },
     { bgColor: "bg-[#e10098]", textColor: "text-white", text: "MySQL" },
     { bgColor: "bg-[#2b7489]", textColor: "text-white", text: "TypeScript" },
     { bgColor: "bg-[#563D7C]", textColor: "text-white", text: "C" },
-    { bgColor: "bg-[#002700]", textColor: "text-white", text: "Vagrant" },
+    { bgColor: "bg-[#002700]", textColor: "text-white", text: "Docker" },
     { bgColor: "bg-[#61dafb]", textColor: "text-black", text: "Linux" },
-    { bgColor: "bg-[#00B4AB]", textColor: "text-white", text: "Figma" },
-    { bgColor: "bg-[#764ABC]", textColor: "text-white", text: "REST" },
+    { bgColor: "bg-[#764ABC]", textColor: "text-white", text: "MongoDB" },
+    { bgColor: "bg-[#00B4AB]", textColor: "text-black", text: "Figma" },
   ];
 
   const sections = [
@@ -158,11 +158,11 @@ const Feature = () => {
                 JavaScript
               </span>
             </div>
-            <h2 className="text-xl font-medium text-gray-900 my-4 2xl:text-2xl">
+            <h1 className="text-xl font-medium text-black my-4 2xl:text-2xl">
               In the ever-evolving landscape of technology, I bring a{" "}
               <strong>creative</strong> and <strong>analytical</strong> mindset
               to every project, focusing on delivering high-quality solutions.
-            </h2>
+            </h1>
 
             <figure className="max-w-screen-md mx-auto text-center">
               <svg
@@ -192,7 +192,7 @@ const Feature = () => {
                   <cite className="pe-3 font-medium text-sm text-gray-900">
                     James Clear
                   </cite>
-                  <cite className="ps-3 text-sm text-gray-500 dark:text-gray-400">
+                  <cite className="ps-3 text-sm text-gray-600">
                     Author, Atomic Habits
                   </cite>
                 </div>
