@@ -31,7 +31,11 @@ interface SectionWithIconProps {
   description: string;
 }
 
-const SectionWithIcon: React.FC<SectionWithIconProps> = ({ icon, title, description }) => (
+const SectionWithIcon: React.FC<SectionWithIconProps> = ({
+  icon,
+  title,
+  description,
+}) => (
   <section className="bg-gray-50 px-8 py-6 shadow rounded-lg text-center">
     <div className="w-12 py-3 flex justify-center mx-auto rounded-md mb-3">
       {icon}
@@ -54,9 +58,9 @@ const Feature = () => {
     { bgColor: "bg-[#2b7489]", textColor: "text-white", text: "TypeScript" },
     { bgColor: "bg-[#563D7C]", textColor: "text-white", text: "C" },
     { bgColor: "bg-[#002700]", textColor: "text-white", text: "Docker" },
-    { bgColor: "bg-[#61dafb]", textColor: "text-black", text: "Linux" },
+    { bgColor: "bg-[#61dafb]", textColor: "text-black", text: "Express" },
     { bgColor: "bg-[#764ABC]", textColor: "text-white", text: "MongoDB" },
-    { bgColor: "bg-[#00B4AB]", textColor: "text-black", text: "Figma" },
+    { bgColor: "bg-[#00B4AB]", textColor: "text-black", text: "APIs" },
   ];
 
   const sections = [
@@ -132,13 +136,13 @@ const Feature = () => {
         </div>
       </section>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-4 pb-8 mx-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-4 pb-5">
         {sections.map((section, index) => (
           <Section key={index} {...section} />
         ))}
       </div>
 
-      <section className="overflow-hidden bg-violet-50 sm:grid rounded mx-8 my-5 sm:grid-cols-2">
+      <section className="overflow-hidden bg-violet-50 sm:grid rounded mx-5 sm:grid-cols-2">
         <aside>
           <Image
             alt="Portfolio Projects"
@@ -150,12 +154,15 @@ const Feature = () => {
         </aside>
         <aside className="p-6 md:p-8 lg:px-12 lg:py-12">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-            <div>
-              <span className="whitespace-nowrap rounded-full mx-1 bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
-                Portfolio
+            <div className="flex flex-wrap gap-2 justify-center">
+              <span className="whitespace-nowrap rounded-full bg-indigo-100 px-3 py-1 text-xs font-medium text-indigo-800">
+                Frontend
               </span>
-              <span className="whitespace-nowrap rounded-full mx-1 bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
-                JavaScript
+              <span className="whitespace-nowrap rounded-full bg-indigo-100 px-3 py-1 text-xs font-medium text-indigo-800">
+                Backend
+              </span>
+              <span className="whitespace-nowrap rounded-full bg-indigo-100 px-3 py-1 text-xs font-medium text-indigo-800">
+                Fullstack
               </span>
             </div>
             <h1 className="text-xl font-medium text-black my-4 2xl:text-2xl">
@@ -199,15 +206,15 @@ const Feature = () => {
               </figcaption>
             </figure>
 
-            {/* <div className="mt-4 md:mt-8">
+            <div className="mt-4 md:mt-8">
               <a
-                href="/projects"
+                href="/details"
                 target="blank"
                 className="inline-block rounded bg-green-700 px-12 py-3 font-medium text-white transition hover:bg-emerald-800 focus:outline-none focus:ring focus:ring-green-700"
               >
-                View Projects
+                View My Work
               </a>
-            </div> */}
+            </div>
           </div>
         </aside>
       </section>
