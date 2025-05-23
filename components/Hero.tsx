@@ -8,13 +8,13 @@ export default function Hero() {
   return (
     <>
       <div className="overflow-hidden bg-[url(../public/images/bg.jpg)] bg-top bg-scroll bg-cover mx-auto px-4">
-        <div className="bg-violet-50 mx-4 my-6 px-8 pt-4 rounded-2xl shadow-xl">
+        <div className="bg-violet-50 lg:mx-4 my-4 px-6 pt-4 rounded-2xl shadow-xl">
           <Image
             src="/images/logo.svg"
             alt="logo"
             width={49}
             height={35}
-            className="my-8 lg:mx-12 flex"
+            className="my-4 lg:my-8 lg:mx-12 flex"
           />
           <header className="grid grid-cols-1 gap-4 justify-center lg:grid-cols-3 lg:gap-8 lg:px-20">
             <div className="text-center lg:text-left lg:mb-8 lg:col-span-2">
@@ -24,7 +24,7 @@ export default function Hero() {
                   Fullstack Developer
                 </p>
               </div>
-              <h1 className="font-bold text-gray-800 text-3xl md:text-5xl xl:text-6xl mb-4">
+              <h1 className="font-bold text-gray-800 text-4xl md:text-5xl xl:text-6xl mb-4">
                 Justine Nicolao
               </h1>
               <h2 className="text-gray-700 text-2xl xl:text-4xl mb-4">
@@ -32,30 +32,30 @@ export default function Hero() {
               </h2>
               <p className="font-normal text-gray-600 text-sm md:text-md lg:w-4/5 xl:text-lg mb-8">
                 With three years of hands-on experience, I am passionate about
-                crafting innovative solutions to complex technological
-                challenges. My journey in the world of software development has
-                been marked by a commitment to excellence, a thirst for
-                continuous learning, and a knack for turning ideas into
-                tangible, efficient, and scalable software products.
+                crafting efficient, scalable solutions to complex technological
+                challenges. My software development journey has been marked by a
+                commitment to excellence, a thirst for continuous learning, and
+                an ability to bring ideas to life through smart, efficient, and
+                scalable software design.
               </p>
-              <div className="space-y-5 lg:space-x-5 sm:mx-4 mb-4 loading-lazy">
+              <div className="flex flex-col sm:flex-row gap-4 sm:mx-4 mb-4 loading-lazy">
                 <button
                   onClick={scrollToAbout}
-                  className="md:inline m-2 lg:my-0 px-8 py-3 font-medium bg-indigo-950 text-white text-lg rounded-md hover:bg-emerald-800 transiton ease-in-out duration-300"
+                  className="px-8 py-3 font-medium bg-indigo-950 text-white text-lg rounded-md hover:bg-indigo-900 transition ease-in-out duration-300 shadow-md"
                 >
                   About
                 </button>
-                {/* 
+
                 <a
-                  href="/projects"
+                  href="/details"
                   target="_blank"
-                  className=" md:inline md:px-8 p-4 scroll-smooth font-medium text-green-900 text-lg border-2 border-green-800 rounded-md hover:bg-emerald-800 hover:text-white transiton ease-linear duration-300"
+                  className="px-8 py-3 font-medium text-indigo-950 text-lg border-2 border-indigo-950 rounded-md hover:bg-indigo-950 hover:text-white transition ease-in-out duration-300 shadow-sm"
                 >
                   Projects
-                </a> */}
+                </a>
               </div>
               <span className="font-normal text-gray-600 text-sm">
-                I am currently not open for full-time work.
+                I am currently open for part-time work.
               </span>
             </div>
 
