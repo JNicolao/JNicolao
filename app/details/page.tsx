@@ -276,17 +276,12 @@ export default function Details() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mb-12">
             <ProjectCard
-              title="Battery Inventory System"
-              description="A real-time battery management system that tracks battery swaps and locations across multiple franchises."
-              tags={["React", "Node.js", "MongoDB", "Socket.io"]}
+              title="Intelligent Water Management Solutions"
+              description="This Water Resource Management AI project demonstrates how artificial intelligence and data science can address critical water management challenges in Africa."
+              tags={["React", "Node.js", "Vite", "PostgreSQL"]}
               image="https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            />
-
-            <ProjectCard
-              title="AI-Powered Task Manager"
-              description="A sophisticated task management application with AI capabilities for prioritization and smart scheduling"
-              tags={["Next.js", "TypeScript", "TensorFlow.js", "Tailwind CSS"]}
-              image="https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              githubUrl="https://github.com/JNicolao/water-AI"
+              liveUrl="https://water-ai.jnicolao.com/"
             />
 
             <ProjectCard
@@ -295,15 +290,24 @@ export default function Details() {
               tags={["React", "Node.js", "WebSockets", "WebRTC"]}
               image="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             />
+            <ProjectCard
+              title="AI-Powered Task Manager"
+              description="A sophisticated task management application with AI capabilities for prioritization and smart scheduling"
+              tags={["Next.js", "TypeScript", "TensorFlow.js", "Tailwind CSS"]}
+              image="https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            />
           </div>
 
           <div className="flex justify-center">
             <Button
               variant="outline"
               className="border-indigo-200 text-indigo-800 hover:bg-indigo-100/50 px-8 py-6 rounded-full text-lg font-bold transition-all hover:translate-y-[-2px] gap-2"
+              asChild
             >
-              View All Projects
-              <ChevronRight className="w-5 h-5" />
+              <a href="https://github.com/JNicolao" target="_blank" rel="noopener noreferrer">
+                View All Projects
+                <ChevronRight className="w-5 h-5" />
+              </a>
             </Button>
           </div>
         </section>
@@ -401,20 +405,6 @@ export default function Details() {
                         Community
                       </span>
                     </div>
-                    <Button
-                      asChild
-                      variant="ghost"
-                      size="sm"
-                      className="text-indigo-200 hover:text-white hover:bg-indigo-800/50 font-medium"
-                    >
-                      <Link
-                        href="https://github.com/reactdevske"
-                        target="_blank"
-                        className="flex items-center gap-1"
-                      >
-                        GitHub <ExternalLink className="w-3 h-3" />
-                      </Link>
-                    </Button>
                   </div>
                 </div>
               </div>
@@ -452,7 +442,7 @@ export default function Details() {
                       className="text-indigo-200 hover:text-white hover:bg-indigo-800/50 font-medium"
                     >
                       <Link
-                        href="https://github.com/FlutterconKE"
+                        href="https://github.com/droidconKE/flutterconKE2024Web"
                         target="_blank"
                         className="flex items-center gap-1"
                       >
