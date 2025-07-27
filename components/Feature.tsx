@@ -20,8 +20,12 @@ interface SectionProps {
 
 const Section: React.FC<SectionProps> = ({ title, description }) => (
   <section className="bg-gray-50 dark:bg-gray-800 px-10 py-10 rounded-md border dark:border-gray-700 transition-all duration-300">
-    <h1 className="font-semibold text-gray-700 dark:text-gray-200 text-lg mb-5 transition-colors duration-300">{title}</h1>
-    <p className="font-normal text-gray-500 dark:text-gray-400 text-md mb-4 transition-colors duration-300">{description}</p>
+    <h1 className="font-semibold text-gray-700 dark:text-gray-200 text-lg mb-5 transition-colors duration-300">
+      {title}
+    </h1>
+    <p className="font-normal text-gray-500 dark:text-gray-400 text-md mb-4 transition-colors duration-300">
+      {description}
+    </p>
   </section>
 );
 
@@ -40,8 +44,12 @@ const SectionWithIcon: React.FC<SectionWithIconProps> = ({
     <div className="w-12 py-3 flex justify-center mx-auto rounded-md mb-3 text-gray-700 dark:text-gray-300 transition-colors duration-300">
       {icon}
     </div>
-    <h1 className="font-semibold text-gray-700 dark:text-gray-200 text-lg mb-3 transition-colors duration-300">{title}</h1>
-    <p className="font-normal text-gray-500 dark:text-gray-400 text-md transition-colors duration-300">{description}</p>
+    <h1 className="font-semibold text-gray-700 dark:text-gray-200 text-lg mb-3 transition-colors duration-300">
+      {title}
+    </h1>
+    <p className="font-normal text-gray-500 dark:text-gray-400 text-md transition-colors duration-300">
+      {description}
+    </p>
   </section>
 );
 
@@ -127,7 +135,10 @@ const Feature = () => {
   ];
 
   return (
-    <div id="about" className="bg-violet-100 dark:bg-gray-900 transition-colors duration-300">
+    <div
+      id="about"
+      className="bg-violet-100 dark:bg-gray-900 transition-colors duration-300"
+    >
       <section className="py-8">
         <div className="flex flex-wrap justify-center font-mono">
           {chips.map((chip, index) => (

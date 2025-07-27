@@ -3,7 +3,7 @@ import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import SocialDock from "@/components/SocialDock";
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
@@ -21,7 +21,7 @@ const montserrat = Montserrat({
   display: "swap",
 });
 
-export * from '@/components/Metadata';
+export * from "@/components/Metadata";
 
 export default function RootLayout({
   children,
@@ -30,7 +30,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} ${manrope.variable} ${montserrat.variable} antialiased`}>
+      <body
+        className={`${inter.variable} ${manrope.variable} ${montserrat.variable} antialiased`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

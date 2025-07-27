@@ -69,8 +69,15 @@ a {
 body {
   min-height: 100vh;
   margin: 0;
-  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family:
+    var(--font-inter),
+    -apple-system,
+    BlinkMacSystemFont,
+    "Inter",
+    sans-serif;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 .chip {
   margin: 0.25rem 0.5rem;
@@ -80,19 +87,22 @@ body {
   border-radius: 9999px;
   padding: 0.5rem;
   font-weight: 500;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+  box-shadow:
+    var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
+  --tw-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
 }
 .chip-text {
   font-family: monospace;
   max-width: 100%;
   flex: 0 1 auto;
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 700;
   line-height: 1;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 li {
   @apply text-gray-900 dark:text-gray-100;

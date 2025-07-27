@@ -56,7 +56,12 @@ export default function Hero() {
                   About
                 </h3>
                 <p className="font-normal text-gray-700 dark:text-gray-200 text-sm md:text-base leading-relaxed transition-colors duration-500 font-sans">
-                  I&apos;m a software Engineer with 3 years of experience building reliable, maintainable applications. I enjoy solving real problems with clean code, and I&apos;m always learning new tools and practices to get better at what I do. I care about writing code that not only works well but also makes a real difference for the people using it.
+                  I&apos;m a software Engineer with 3 years of experience
+                  building reliable, maintainable applications. I enjoy solving
+                  real problems with clean code, and I&apos;m always learning
+                  new tools and practices to get better at what I do. I care
+                  about writing code that not only works well but also makes a
+                  real difference for the people using it.
                 </p>
               </div>
             </div>
@@ -260,7 +265,7 @@ export default function Hero() {
                       </g>
                       <defs>
                         <clipPath id="clip0_tiktok">
-                          <rect width="24" height="24" fill="white"/>
+                          <rect width="24" height="24" fill="white" />
                         </clipPath>
                       </defs>
                     </svg>
@@ -617,7 +622,8 @@ export default function Hero() {
 
         <div className="mt-12 mb-6">
           <p className="text-center text-sm text-gray-800 dark:text-gray-300 transition-colors duration-300">
-            &copy; {new Date().getFullYear()} • Justine Nicolao • All Rights Reserved
+            &copy; {new Date().getFullYear()} • Justine Nicolao • All Rights
+            Reserved
           </p>
         </div>
       </div>

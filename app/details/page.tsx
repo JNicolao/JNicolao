@@ -304,7 +304,11 @@ export default function Details() {
               className="border-indigo-200 text-indigo-800 hover:bg-indigo-100/50 px-8 py-6 rounded-full text-lg font-bold transition-all hover:translate-y-[-2px] gap-2"
               asChild
             >
-              <a href="https://github.com/JNicolao" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/JNicolao"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 View All Projects
                 <ChevronRight className="w-5 h-5" />
               </a>

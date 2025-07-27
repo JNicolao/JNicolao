@@ -13,7 +13,7 @@ I'm a **Software Engineer** with 3 years of experience building scalable systems
 - **Programming**: &nbsp;&nbsp;&nbsp; JavaScript • C • Python • Typescript
 - **Frameworks**: &nbsp;&nbsp;&nbsp; React.js • Next.js • Django • Node.js • Tailwind
 - **DevOps**: &nbsp;&nbsp;&nbsp;&nbsp; Docker 🐳 • Kubernetes • AWS ☁️ • NGINX
-- **Databases**: &nbsp;&nbsp;&nbsp; MySQL • MongoDB • Redis  
+- **Databases**: &nbsp;&nbsp;&nbsp; MySQL • MongoDB • Redis
 - **Tools**: &nbsp;&nbsp;&nbsp;&nbsp; Git • VS Code • Figma • Windsurf
 
 <p align="center">

@@ -43,7 +43,9 @@ export function Timeline({ items }: TimelineProps) {
                       {item.period}
                     </Badge>
                   </div>
-                  <p className="text-indigo-700 dark:text-indigo-400 font-medium font-sans transition-colors duration-500">{item.company}</p>
+                  <p className="text-indigo-700 dark:text-indigo-400 font-medium font-sans transition-colors duration-500">
+                    {item.company}
+                  </p>
                 </div>
 
                 <ul className="space-y-2 pl-5">
