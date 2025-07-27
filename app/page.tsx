@@ -1,13 +1,9 @@
-import Feature from "@/components/Feature";
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
+import Hero from "@/components/Home";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Feature />
-      <Footer />
     </>
   );
 }

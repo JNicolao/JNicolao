@@ -2,7 +2,7 @@
 
 ### 👨🏻‍💻 Half-Human, Half-Code, Full-Stack vibes </>
 
-I'm a **Software Engineer** specializing in building scalable systems, crafting clean code, and turning complex problems into simple, elegant solutions. Currently experimenting with **Web3 technologies** and decentralized systems.
+I'm a **Software Engineer** with 3 years of experience building scalable systems, web applications and turning complex problems into simple, elegant solutions. I care about writing clear code, solving real problems, and continuing to improve my skills with every project. Currently experimenting with **Web3 technologies** and Decentralized Systems/Applications.
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jnicolao&label=Profile%20views&color=0e75b6&style=flat" alt="jnicolao" /> </p>
 

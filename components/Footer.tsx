@@ -17,7 +17,7 @@ const SocialMediaLink: React.FC<SocialMediaLinkProps> = ({
     target="_blank"
     rel="noopener noreferrer"
     aria-label={ariaLabel}
-    className="text-gray-600"
+    className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300"
   >
     {children}
   </a>
@@ -189,13 +189,13 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gradient-to-b from-violet-100 to-violet-200 max-w-screen">
+    <footer className="bg-gradient-to-b from-violet-100 to-violet-200 dark:from-gray-800 dark:to-gray-900 max-w-screen transition-colors duration-300">
       <div className="px-4 pb-8">
         <section className="text-center">
-          <h1 className="font-semibold text-black text-3xl md:text-4xl mb-5">
+          <h1 className="font-semibold text-black dark:text-white text-3xl md:text-4xl mb-5 transition-colors duration-300">
             Connect
           </h1>
-          <p className="text-gray-500 lg:mx-80 xs:mx-8 md:text-lg">
+          <p className="text-gray-500 dark:text-gray-400 lg:mx-80 xs:mx-8 md:text-lg transition-colors duration-300">
             I&apos;m always open to new opportunities, collaborations, and
             discussions about all things tech. Feel free to reach out to me via
             the links below, and let&apos;s explore how we can create something
@@ -205,12 +205,12 @@ export default function Footer() {
         <div className="text-center">
           <Image
             src="/images/john.svg"
-            className="mx-auto my-8 h-32"
+            className="mx-auto my-8 h-32 dark:invert transition-all duration-300"
             alt="logo"
             width={107}
             height={128}
           />
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
             Thank you for visiting my portfolio, and I look forward to
             connecting with you!
           </p>
@@ -226,7 +226,7 @@ export default function Footer() {
             ))}
           </div>
         </div>
-        <p className="text-center mt-8 text-sm text-gray-800">
+        <p className="text-center mt-8 text-sm text-gray-800 dark:text-gray-300 transition-colors duration-300">
           &copy; {new Date().getFullYear()} • Justine Nicolao
         </p>
       </div>
