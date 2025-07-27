@@ -2,6 +2,7 @@ import { Inter, Manrope, Montserrat } from "next/font/google";
 import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import SocialDock from "@/components/SocialDock";
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -40,6 +41,7 @@ export default function RootLayout({
           disableTransitionOnChange={false}
         >
           {children}
+          <Analytics />
           <SocialDock />
         </ThemeProvider>
       </body>
