@@ -8,7 +8,7 @@ interface ChipProps {
 }
 
 const Chip: React.FC<ChipProps> = ({ bgColor, textColor, text }) => (
-  <div className={`chip ${bgColor}`}>
+  <div className={`chip ${bgColor} transition-all duration-300`}>
     <div className={`chip-text ${textColor}`}>{text}</div>
   </div>
 );
@@ -19,9 +19,13 @@ interface SectionProps {
 }
 
 const Section: React.FC<SectionProps> = ({ title, description }) => (
-  <section className="bg-gray-50 px-10 py-10 rounded-md">
-    <h1 className="font-semibold text-gray-700 text-lg mb-5">{title}</h1>
-    <p className="font-normal text-gray-500 text-md mb-4">{description}</p>
+  <section className="bg-gray-50 dark:bg-gray-800 px-10 py-10 rounded-md border dark:border-gray-700 transition-all duration-300">
+    <h1 className="font-semibold text-gray-700 dark:text-gray-200 text-lg mb-5 transition-colors duration-300">
+      {title}
+    </h1>
+    <p className="font-normal text-gray-500 dark:text-gray-400 text-md mb-4 transition-colors duration-300">
+      {description}
+    </p>
   </section>
 );
 
@@ -36,12 +40,16 @@ const SectionWithIcon: React.FC<SectionWithIconProps> = ({
   title,
   description,
 }) => (
-  <section className="bg-gray-50 px-8 py-6 shadow rounded-lg text-center">
-    <div className="w-12 py-3 flex justify-center mx-auto rounded-md mb-3">
+  <section className="bg-gray-50 dark:bg-gray-800 px-8 py-6 shadow dark:shadow-lg rounded-lg text-center border dark:border-gray-700 transition-all duration-300">
+    <div className="w-12 py-3 flex justify-center mx-auto rounded-md mb-3 text-gray-700 dark:text-gray-300 transition-colors duration-300">
       {icon}
     </div>
-    <h1 className="font-semibold text-gray-700 text-lg mb-3">{title}</h1>
-    <p className="font-normal text-gray-500 text-md">{description}</p>
+    <h1 className="font-semibold text-gray-700 dark:text-gray-200 text-lg mb-3 transition-colors duration-300">
+      {title}
+    </h1>
+    <p className="font-normal text-gray-500 dark:text-gray-400 text-md transition-colors duration-300">
+      {description}
+    </p>
   </section>
 );
 
@@ -127,7 +135,10 @@ const Feature = () => {
   ];
 
   return (
-    <div id="about" className="bg-violet-100">
+    <div
+      id="about"
+      className="bg-violet-100 dark:bg-gray-900 transition-colors duration-300"
+    >
       <section className="py-8">
         <div className="flex flex-wrap justify-center font-mono">
           {chips.map((chip, index) => (
@@ -142,7 +153,7 @@ const Feature = () => {
         ))}
       </div>
 
-      <section className="overflow-hidden bg-violet-50 sm:grid rounded mx-5 sm:grid-cols-2">
+      <section className="overflow-hidden bg-violet-50 dark:bg-gray-800 sm:grid rounded mx-5 sm:grid-cols-2 border dark:border-gray-700 transition-all duration-300">
         <aside>
           <Image
             alt="Portfolio Projects"
@@ -155,17 +166,17 @@ const Feature = () => {
         <aside className="p-6 md:p-8 lg:px-12 lg:py-12">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
             <div className="flex flex-wrap gap-2 justify-center">
-              <span className="whitespace-nowrap rounded-full bg-indigo-100 px-3 py-1 text-xs font-medium text-indigo-800">
+              <span className="whitespace-nowrap rounded-full bg-indigo-100 dark:bg-indigo-900 px-3 py-1 text-xs font-medium text-indigo-800 dark:text-indigo-200 transition-colors duration-300">
                 Frontend
               </span>
-              <span className="whitespace-nowrap rounded-full bg-indigo-100 px-3 py-1 text-xs font-medium text-indigo-800">
+              <span className="whitespace-nowrap rounded-full bg-indigo-100 dark:bg-indigo-900 px-3 py-1 text-xs font-medium text-indigo-800 dark:text-indigo-200 transition-colors duration-300">
                 Backend
               </span>
-              <span className="whitespace-nowrap rounded-full bg-indigo-100 px-3 py-1 text-xs font-medium text-indigo-800">
+              <span className="whitespace-nowrap rounded-full bg-indigo-100 dark:bg-indigo-900 px-3 py-1 text-xs font-medium text-indigo-800 dark:text-indigo-200 transition-colors duration-300">
                 Fullstack
               </span>
             </div>
-            <h1 className="text-xl font-medium text-black my-4 2xl:text-2xl">
+            <h1 className="text-xl font-medium text-black dark:text-white my-4 2xl:text-2xl transition-colors duration-300">
               In the ever-evolving landscape of technology, I bring a{" "}
               <strong>creative</strong> and <strong>analytical</strong> mindset
               to every project, focusing on delivering high-quality solutions.
@@ -182,7 +193,7 @@ const Feature = () => {
                 <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
               </svg>
               <blockquote>
-                <p className="text-lg italic font-semibold text-gray-900">
+                <p className="text-lg italic font-semibold text-gray-900 dark:text-gray-100 transition-colors duration-300">
                   You will love whatever you pour your heart into. Passion
                   follows commitment.
                 </p>
@@ -196,10 +207,10 @@ const Feature = () => {
                   height={20}
                 />
                 <div className="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
-                  <cite className="pe-3 font-medium text-sm text-gray-900">
+                  <cite className="pe-3 font-medium text-sm text-gray-900 dark:text-gray-100 transition-colors duration-300">
                     James Clear
                   </cite>
-                  <cite className="ps-3 text-sm text-gray-600">
+                  <cite className="ps-3 text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
                     Author, Atomic Habits
                   </cite>
                 </div>
@@ -210,7 +221,7 @@ const Feature = () => {
               <a
                 href="/details"
                 target="blank"
-                className="inline-block rounded bg-green-700 px-12 py-3 font-medium text-white transition hover:bg-emerald-800 focus:outline-none focus:ring focus:ring-green-700"
+                className="inline-block rounded bg-green-700 dark:bg-green-600 px-12 py-3 font-medium text-white transition hover:bg-emerald-800 dark:hover:bg-green-500 focus:outline-none focus:ring focus:ring-green-700 dark:focus:ring-green-500 shadow-md dark:shadow-lg"
               >
                 View My Work
               </a>

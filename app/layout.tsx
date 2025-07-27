@@ -1,20 +1,27 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Manrope, Montserrat } from "next/font/google";
 import "@/styles/globals.css";
-import { Inter } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
+import SocialDock from "@/components/SocialDock";
 
-const inter = Inter({ subsets: ["latin"] });
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const manrope = Manrope({
   subsets: ["latin"],
+  variable: "--font-manrope",
+  display: "swap",
 });
 
-export * from '@/components/Metadata';
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+  display: "swap",
+});
+
+export * from "@/components/Metadata";
 
 export default function RootLayout({
   children,
@@ -22,11 +29,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.variable} ${manrope.variable} ${montserrat.variable} antialiased`}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange={false}
+        >
+          {children}
+          <SocialDock />
+        </ThemeProvider>
       </body>
     </html>
   );
