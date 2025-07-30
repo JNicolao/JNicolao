@@ -577,8 +577,8 @@ export default function Hero() {
 
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-6">
             <ProjectCard
-              title="Intelligent Water Management Solutions"
-              description="This Water Resource Management AI project demonstrates how artificial intelligence and data science can address critical water management challenges in Africa."
+              title="Water Resource Solution"
+              description="Water Resource Management is about using science, data, and policy to make sure everyone has enough safe, clean water — now and in the future. With AI and real-time monitoring, we can manage this precious resource smarter and more sustainably."
               tags={["React", "Node.js", "Vite", "PostgreSQL"]}
               image="https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               githubUrl="https://github.com/JNicolao/water-AI"
@@ -586,16 +586,18 @@ export default function Hero() {
             />
 
             <ProjectCard
-              title="Real-time Collaboration Tool"
-              description="A collaborative platform for teams to work together in real-time with document editing and video conferencing."
-              tags={["React", "Node.js", "WebSockets", "WebRTC"]}
-              image="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              title="Murmur"
+              description="Speak freely, and let AI not just listen, but understand. With real-time voice-to-chat interaction and emotional awareness, Murmur is a voice-first journal, confidant, and companion that helps you track, explore, and heal your inner world."
+              tags={["Express", "OpenAI", "Next.js", "Supabase"]}
+              image="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             />
             <ProjectCard
               title="AI-Powered Task Manager"
-              description="A sophisticated task management application with AI capabilities for prioritization and smart scheduling"
-              tags={["Next.js", "TypeScript", "TensorFlow.js", "Tailwind CSS"]}
+              description="A full-stack task management application that leverages artificial intelligence to analyze your productivity patterns and provide actionable insights for workflow optimization."
+              tags={["Vite", "TypeScript", "TensorFlow.js", "Tailwind CSS"]}
               image="https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              githubUrl="https://github.com/JNicolao/task-manager"
+              liveUrl="https://task-manager-neon-kappa.vercel.app/"
             />
           </div>
 
