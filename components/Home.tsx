@@ -595,7 +595,7 @@ export default function Hero() {
               title="AI-Powered Task Manager"
               description="A full-stack task management application that leverages artificial intelligence to analyze your productivity patterns and provide actionable insights for workflow optimization."
               tags={["Vite", "TypeScript", "TensorFlow.js", "Tailwind CSS"]}
-              image="https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              image="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               githubUrl="https://github.com/JNicolao/task-manager"
               liveUrl="https://task-manager-neon-kappa.vercel.app/"
             />
