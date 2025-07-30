@@ -57,33 +57,39 @@ export function ProjectCard({
             ))}
           </div>
 
-          <div className="flex gap-3">
+          <div className="flex gap-3 pt-2 justify-between">
             {liveUrl && (
+            <div className="relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-200/20 via-sky-200/20 to-indigo-200/20 dark:from-indigo-800/20 dark:via-sky-800/20 dark:to-indigo-800/20 rounded-lg blur opacity-30 group-hover:opacity-40 transition-opacity duration-300"></div>
               <Button
                 asChild
                 variant="ghost"
-                size="sm"
-                className="text-indigo-700 dark:text-indigo-400 hover:text-indigo-900 dark:hover:text-indigo-300 hover:bg-indigo-100/50 dark:hover:bg-indigo-800/30 font-medium gap-2 transition-colors duration-500 font-sans"
+                size="default"
+                className="backdrop-blur-sm bg-white/30 hover:bg-indigo-900 dark:bg-slate-800/20 border border-black/20 dark:border-slate-700/30 text-gray-700 dark:text-gray-200 hover:text-white dark:hover:text-white dark:hover:bg-indigo-900 font-medium gap-2 transition-all duration-300 hover:scale-[1.02] font-sans relative z-10 rounded-lg shadow-sm hover:shadow-md px-6"
               >
                 <Link href={liveUrl} target="_blank">
                   <ExternalLink className="w-4 h-4" />
-                  Live Demo
+                  Visit Site
                 </Link>
               </Button>
+            </div>
             )}
 
             {githubUrl && (
+            <div className="relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-200/20 via-sky-200/20 to-indigo-200/20 dark:from-indigo-800/20 dark:via-sky-800/20 dark:to-indigo-800/20 rounded-lg blur opacity-30 group-hover:opacity-40 transition-opacity duration-300"></div>
               <Button
                 asChild
                 variant="ghost"
-                size="sm"
-                className="text-indigo-700 dark:text-indigo-400 hover:text-indigo-900 dark:hover:text-indigo-300 hover:bg-indigo-100/50 dark:hover:bg-indigo-800/30 font-medium gap-2 transition-colors duration-500 font-sans"
+                size="default"
+                className="backdrop-blur-sm bg-white/30 hover:bg-indigo-900 dark:bg-slate-800/20 border border-black/20 dark:border-slate-700/30 text-gray-700 dark:text-gray-200 hover:text-white dark:hover:text-white dark:hover:bg-indigo-900 font-medium gap-2 transition-all duration-300 hover:scale-[1.02] font-sans relative z-10 rounded-lg shadow-sm hover:shadow-md px-6"
               >
                 <Link href={githubUrl} target="_blank">
                   <Github className="w-4 h-4" />
-                  GitHub
+                  View Code
                 </Link>
               </Button>
+              </div>
             )}
           </div>
         </CardContent>
