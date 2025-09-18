@@ -2,7 +2,7 @@
 
 ### 👨🏻‍💻 Half-Human, Half-Code, Full-Stack vibes </>
 
-I'm a **Software Engineer** with 3 years of experience building scalable systems, web applications and turning complex problems into simple, elegant solutions. I care about writing clear code, solving real problems, and continuing to improve my skills with every project. Currently experimenting with **Web3 technologies** and Decentralized Systems/Applications.
+I'm a **Software Engineer** with 4 years of experience building scalable systems, web applications and turning complex problems into simple, elegant solutions. I care about writing clear code, solving real problems, and continuing to improve my skills with every project. Currently experimenting with **Web3 Technologies** and Decentralized Systems/Applications.
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jnicolao&label=Profile%20views&color=0e75b6&style=flat" alt="jnicolao" /> </p>
 
@@ -10,10 +10,10 @@ I'm a **Software Engineer** with 3 years of experience building scalable systems
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=jnicolao&show_icons=true&locale=en&layout=compact" alt="jnicolao" />
 
-- **Programming**: &nbsp;&nbsp;&nbsp; JavaScript • C • Python • Typescript
+- **Programming**: &nbsp;&nbsp;&nbsp; JavaScript • C • Python • Typescript • Ruby
 - **Frameworks**: &nbsp;&nbsp;&nbsp; React.js • Next.js • Django • Node.js • Tailwind
-- **DevOps**: &nbsp;&nbsp;&nbsp;&nbsp; Docker 🐳 • Kubernetes • AWS ☁️ • NGINX
-- **Databases**: &nbsp;&nbsp;&nbsp; MySQL • MongoDB • Redis
+- **Infrastructure**: &nbsp;&nbsp;&nbsp; Docker • Kubernetes • AWS • NGINX • Jenkins
+- **Databases**: &nbsp;&nbsp;&nbsp; MySQL • MongoDB • Redis • Firebase • PostgreSQL
 - **Tools**: &nbsp;&nbsp;&nbsp;&nbsp; Git • VS Code • Figma • Windsurf
 
 <p align="center">
