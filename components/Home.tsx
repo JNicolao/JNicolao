@@ -56,7 +56,7 @@ export default function Hero() {
                   About
                 </h3>
                 <p className="font-normal text-gray-700 dark:text-gray-200 text-sm md:text-base leading-relaxed transition-colors duration-500 font-sans">
-                  I&apos;m a software Engineer with 3 years of experience
+                  I&apos;m a Software Engineer with 4 years of experience
                   building reliable, maintainable applications. I enjoy solving
                   real problems with clean code, and I&apos;m always learning
                   new tools and practices to get better at what I do. I care
@@ -382,7 +382,7 @@ export default function Hero() {
                   {
                     title: "Fullstack Developer",
                     company: "Prasins Energy Limited",
-                    period: "Jan 2024 - Mar 2024",
+                    period: "Jan 2022 - Mar 2024",
                     description: [
                       "Identified inefficiencies in the production process, implemented a streamlined workflow, resulting in a 18% reduction in production time.",
                       "Website development using JavaScript and related technologies (React and Next.js) gaining hands-on experience in building web applications.",
