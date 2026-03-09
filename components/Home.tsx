@@ -592,12 +592,12 @@ export default function Hero() {
               image="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             />
             <ProjectCard
-              title="AI-Powered Task Manager"
-              description="A full-stack task management application that leverages artificial intelligence to analyze your productivity patterns and provide actionable insights for workflow optimization."
-              tags={["Vite", "TypeScript", "TensorFlow.js", "Tailwind CSS"]}
-              image="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              githubUrl="https://github.com/JNicolao/task-manager"
-              liveUrl="https://task-manager-neon-kappa.vercel.app/"
+              title="Nanoshine Cleaning"
+              description="A modern, responsive website for a Kenya's premier eco-friendly cleaning service provider, featuring online booking, service showcases, and a contact system powered by Nodemailer."
+              tags={["Next.js", "TypeScript", "Tailwind CSS", "Nodemailer"]}
+              image="https://images.pexels.com/photos/4107120/pexels-photo-4107120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              githubUrl="https://github.com/JNicolao/nanoshine"
+              liveUrl="https://nanoshine.vercel.app/"
             />
           </div>
 
