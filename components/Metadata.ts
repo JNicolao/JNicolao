@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 
-const url = "https://jnicolao.me";
+const url = "https://jnicolao.com";
 const icon = "/icons/android-chrome-512x512.png";
 const ogImageUrl = `${url}/images/john.svg`;
 
 const description =
-  "Software Engineer | Full-stack Developer.";
+  "Software Engineer | Full-stack Developer";
 
 export const metadata: Metadata = {
   title: "Justine Nicolao",
@@ -56,16 +56,16 @@ export const metadata: Metadata = {
   icons: {
     icon,
     shortcut: icon,
-    apple: "https://jnicolao.me/icons/apple-touch-icon.png",
+    apple: "https://jnicolao.com/icons/apple-touch-icon.png",
     other: [
       {
         rel: "icon",
-        url: "https://jnicolao.me/icons/favicon-16x16.png",
+        url: "https://jnicolao.com/icons/favicon-16x16.png",
         sizes: "16x16",
       },
       {
         rel: "icon",
-        url: "https://jnicolao.me/icons/favicon-32x32.png",
+        url: "https://jnicolao.com/icons/favicon-32x32.png",
         sizes: "32x32",
       },
     ],
