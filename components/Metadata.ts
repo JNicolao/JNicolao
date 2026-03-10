@@ -2,12 +2,14 @@ import { Metadata } from "next";
 
 const url = "https://jnicolao.me";
 const icon = "/icons/android-chrome-512x512.png";
-const image = "/images/photo.jpeg";
+const ogImageUrl = `${url}/images/john.svg`;
+
+const description =
+  "Software Engineer | Full-stack Developer.";
 
 export const metadata: Metadata = {
   title: "Justine Nicolao",
-  description:
-    "Software Engineer solving problems you didn't know you had, in ways you don't understand.",
+  description,
   keywords: [
     "Justine Nicolao",
     "Software Engineer",
@@ -23,22 +25,16 @@ export const metadata: Metadata = {
   metadataBase: new URL(url),
   openGraph: {
     title: "Justine Nicolao",
-    description:
-      "Software Engineer solving problems you didn't know you had, in ways you don't understand.",
+    description,
     url,
     siteName: "Justine Nicolao",
     images: [
       {
-        url: "https://jnicolao.me/images/photo.jpeg",
-        width: 800,
-        height: 600,
-        alt: "Photo of Justine Nicolao",
-      },
-      {
-        url: "https://jnicolao.me/images/photo.jpeg",
-        width: 1800,
-        height: 1600,
-        alt: "Photo of Justine Nicolao",
+        url: ogImageUrl,
+        width: 331,
+        height: 397,
+        alt: "Justine Nicolao — Software Engineer",
+        type: "image/svg+xml",
       },
     ],
     locale: "en_US",
@@ -77,11 +73,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Justine Nicolao",
-    description:
-      "Software Engineer solving problems you didn't know you had, in ways you don't understand.",
+    description,
     site: "@jnicolao5",
     creator: "@jnicolao5",
-    images: [image],
+    images: [ogImageUrl],
   },
 };
 
