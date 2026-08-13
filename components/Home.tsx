@@ -1,12 +1,12 @@
 "use client";
 import Image from "next/image";
 import { ThemeToggle } from "./theme-toggle";
-import { ChevronRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+// import { ChevronRight } from "lucide-react";
+// import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Timeline } from "@/components/timeline";
 import { SkillCategory } from "@/components/skill-category";
-import { ProjectCard } from "@/components/project-card";
+// import { ProjectCard } from "@/components/project-card";
 
 export default function Hero() {
   return (
@@ -364,9 +364,9 @@ export default function Hero() {
                     company: "Pickspot Network",
                     period: "Jun 2024 - Present",
                     description: [
-                      "Developing and deploying scalable web applications by implemented new features and functionalities using technologies including React, Node.js, and MongoDB, improving platform performance by 85%.",
-                      "Collaborating with cross-functional teams to design and launch the new product along with a host of many features, contributing to a significant revenue boost and customer satisfaction.",
-                      "Integrating third-party APIs and services thereby expanding our platform's capabilities and offering more value to users.",
+                      "Lead frontend engineering for PickSend, a production merchant logistics platform built with Next.js App Router, React, and TypeScript, architecting scalable, maintainable frontend workflows and API integrations that power parcel registration, application state and performance, and core merchant workflows.",
+                      "Build and maintain customer-facing applications, operational dashboards and internal portals, collaborating with product and design teams to translate complex business requirements into responsive, scalable user experiences that support revenue growth and maintain 90%+ user satisfaction.",
+                      "Drive frontend architecture and engineering standards across product surfaces, implementing reusable component systems, API integrations, state management, performance optimisation, accessibility, automated testing, and secure frontend patterns to support reliable production applications.",
                     ],
                   },
                   {
@@ -399,64 +399,105 @@ export default function Hero() {
             >
               <div className="grid gap-6 md:grid-cols-2">
                 <SkillCategory
-                  title="Frontend Development"
+                  title="Frontend Engineering"
                   skills={[
                     {
                       name: "React",
                       subskills: [
-                        "React 16+",
+                        "React 19",
                         "Hooks",
+                        "Server Components",
                         "Context API",
-                        "Next.js",
+                        "State Management",
+                        "Reusable Component Systems",
+                      ],
+                    },
+                    {
+                      name: "Next.js",
+                      subskills: [
+                        "App Router",
+                        "SSR",
+                        "SSG",
+                        "ISR",
+                        "API Routes",
+                        "Middleware",
+                        "Image Optimisation",
+                      ],
+                    },
+                    {
+                      name: "TypeScript & JavaScript",
+                      subskills: [
                         "TypeScript",
-                        "TailwindCSS",
-                        "Styled Components",
-                        "Formik",
-                        "TDD",
-                        "PWA",
-                      ],
-                    },
-                    {
-                      name: "JavaScript",
-                      subskills: [
                         "ES6+",
-                        "DOM Manipulation",
+                        "Type-Safe APIs",
                         "Async/Await",
-                        "Fetch API",
-                        "NPM",
-                        "Webpack",
-                        "Babel",
+                        "DOM APIs",
                       ],
                     },
                     {
-                      name: "HTML/CSS",
+                      name: "Styling & UI",
                       subskills: [
+                        "Tailwind CSS 4",
+                        "Responsive Design",
                         "Semantic HTML",
                         "CSS3",
                         "Flexbox",
                         "Grid",
-                        "Responsive Design",
                         "SASS/SCSS",
-                        "CSS Modules",
-                      ],
-                    },
-                    {
-                      name: "Design",
-                      subskills: [
-                        "Figma",
-                        "Webflow",
-                        "Adobe XD",
-                        "UI/UX Design",
-                        "Prototyping",
-                        "Wireframing",
                         "Design Systems",
+                        "Figma",
                       ],
                     },
                   ]}
                 />
 
                 <SkillCategory
-                  title="Backend Development"
+                  title="Quality, Security & Accessibility"
+                  skills={[
+                    {
+                      name: "Testing",
+                      subskills: [
+                        "Jest",
+                        "React Testing Library",
+                        "Cypress",
+                        "Test-Driven Development",
+                        "Component & E2E Testing",
+                      ],
+                    },
+                    {
+                      name: "Accessibility",
+                      subskills: [
+                        "WCAG 2.1 AA",
+                        "Semantic HTML",
+                        "ARIA",
+                        "Keyboard Navigation",
+                      ],
+                    },
+                    {
+                      name: "Frontend Security",
+                      subskills: [
+                        "XSS Prevention",
+                        "CSP Headers",
+                        "Secure Cookie Handling",
+                        "Token Storage",
+                        "JWT Authentication",
+                      ],
+                    },
+                    {
+                      name: "Performance",
+                      subskills: [
+                        "Code Splitting",
+                        "Lazy Loading",
+                        "Image Optimisation",
+                        "Bundle Analysis",
+                        "Core Web Vitals",
+                      ],
+                    },
+                  ]}
+                />
+
+                <SkillCategory
+                  title="Backend & Data"
                   skills={[
                     {
                       name: "Node.js",
@@ -466,92 +507,52 @@ export default function Hero() {
                         "JWT",
                         "Authentication",
                         "Middleware",
-                        "MongoDB Integration",
                       ],
                     },
                     {
                       name: "Python",
-                      subskills: [
-                        "Django",
-                        "Flask",
-                        "Data Analysis",
-                        "Scripting",
-                        "Automation",
-                      ],
-                    },
-                    {
-                      name: "C",
-                      subskills: [
-                        "Embedded Systems",
-                        "System Programming",
-                        "Memory Management",
-                        "Data Structures",
-                        "Algorithms",
-                      ],
+                      subskills: ["Django", "Flask", "Scripting", "Automation"],
                     },
                     {
                       name: "Databases",
                       subskills: [
                         "MongoDB",
-                        "MySQL",
                         "PostgreSQL",
+                        "MySQL",
                         "Redis",
-                        "Mongoose",
-                        "Sequelize",
-                        "Database Design",
+                        "Supabase",
+                        "Firebase",
                       ],
                     },
                   ]}
                 />
 
                 <SkillCategory
-                  title="Tools & Platforms"
+                  title="Tools, Platforms & Practices"
                   skills={[
                     {
-                      name: "Version Control",
-                      subskills: [
-                        "Git",
-                        "GitHub",
-                        "GitLab",
-                        "Branching Strategies",
-                        "Pull Requests",
-                        "Code Reviews",
-                      ],
+                      name: "Build Tooling",
+                      subskills: ["Turbopack", "Webpack", "Vite", "npm"],
                     },
                     {
-                      name: "DevOps",
+                      name: "Cloud & DevOps",
                       subskills: [
+                        "AWS",
+                        "Azure",
                         "Docker",
                         "CI/CD",
                         "GitHub Actions",
                         "Vercel",
-                        "Netlify",
-                        "AWS",
                       ],
                     },
-                  ]}
-                />
-
-                <SkillCategory
-                  title="Professional Skills"
-                  skills={[
                     {
-                      name: "Development Practices",
+                      name: "Collaboration & Practices",
                       subskills: [
-                        "Agile Methodology",
-                        "Scrum",
-                        "Test-Driven Development",
+                        "Git",
+                        "GitHub",
                         "Code Reviews",
+                        "Agile & Scrum",
                         "Documentation",
-                      ],
-                    },
-                    {
-                      name: "Soft Skills",
-                      subskills: [
-                        "Team Collaboration",
-                        "Problem Solving",
-                        "Communication",
-                        "Time Management",
                         "Mentoring",
                       ],
                     },
@@ -562,6 +563,7 @@ export default function Hero() {
           </Tabs>
         </section>
 
+        {/* Featured Projects — hidden for now, re-enable once projects are ready
         <section id="projects" className="py-4 mb-8">
           <div className="text-center mb-6">
             <div className="flex items-center justify-center gap-2 mb-4">
@@ -621,6 +623,7 @@ export default function Hero() {
             </div>
           </div>
         </section>
+        */}
 
         <div className="mt-12 mb-6">
           <p className="text-center text-sm text-gray-800 dark:text-gray-300 transition-colors duration-300">
