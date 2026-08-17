@@ -1,8 +1,7 @@
-import { Inter, Manrope, Montserrat } from "next/font/google";
+import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import SocialDock from "@/components/SocialDock";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -10,19 +9,39 @@ const inter = Inter({
   display: "swap",
 });
 
-const manrope = Manrope({
-  subsets: ["latin"],
-  variable: "--font-manrope",
-  display: "swap",
-});
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  variable: "--font-montserrat",
-  display: "swap",
-});
-
 export * from "@/components/Metadata";
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Justine Nicolao",
+  alternateName: "Justine Bororio",
+  jobTitle: "Software Engineer",
+  url: "https://jnicolao.com",
+  image: "https://jnicolao.com/images/photo.jpg",
+  worksFor: {
+    "@type": "Organization",
+    name: "PickSpot Network",
+  },
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Nairobi",
+    addressCountry: "KE",
+  },
+  knowsAbout: [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Flutter",
+    "Frontend Engineering",
+  ],
+  sameAs: [
+    "https://www.linkedin.com/in/jnicolao/",
+    "https://github.com/JNicolao",
+    "https://x.com/jnicolao5",
+    "https://medium.com/@jnicolao",
+  ],
+};
 
 export default function RootLayout({
   children,
@@ -31,9 +50,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${inter.variable} ${manrope.variable} ${montserrat.variable} antialiased`}
-      >
+      <body className={`${inter.variable} antialiased`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -42,7 +63,6 @@ export default function RootLayout({
         >
           {children}
           <Analytics />
-          <SocialDock />
         </ThemeProvider>
       </body>
     </html>

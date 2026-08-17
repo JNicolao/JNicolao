@@ -5,26 +5,29 @@ const icon = "/icons/android-chrome-512x512.png";
 const ogImageUrl = `${url}/images/john.svg`;
 
 const description =
-  "Software Engineer | Full-stack Developer";
+  "Justine Nicolao is a Full-stack Software Engineer in Nairobi, Kenya, building web and mobile products with Next.js, React, TypeScript and Flutter.";
 
 export const metadata: Metadata = {
-  title: "Justine Nicolao",
+  title: "Justine Nicolao | Software Engineer",
   description,
   keywords: [
     "Justine Nicolao",
-    "Software Engineer",
-    "Web Developer",
-    "Full Stack Developer",
-    "Frontend Developer",
-    "Backend Developer",
+    "Justine Bororio",
+    "Justine",
+    "Software Engineer Nairobi",
+    "Frontend Engineer Kenya",
     "React Developer",
-    "Fullstack Engineer",
+    "Next.js Developer",
+    "Flutter Developer",
   ],
   creator: "Justine Nicolao",
-  authors: [{ name: "Justine Nicolao" }],
+  authors: [{ name: "Justine Nicolao", url }],
   metadataBase: new URL(url),
+  alternates: {
+    canonical: url,
+  },
   openGraph: {
-    title: "Justine Nicolao",
+    title: "Justine Nicolao | Software Engineer",
     description,
     url,
     siteName: "Justine Nicolao",
@@ -33,7 +36,7 @@ export const metadata: Metadata = {
         url: ogImageUrl,
         width: 331,
         height: 397,
-        alt: "Justine Nicolao — Software Engineer",
+        alt: "Justine Nicolao | Software Engineer",
         type: "image/svg+xml",
       },
     ],
@@ -72,7 +75,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Justine Nicolao",
+    title: "Justine Nicolao | Software Engineer",
     description,
     site: "@jnicolao5",
     creator: "@jnicolao5",
